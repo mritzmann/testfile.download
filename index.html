@@ -13,6 +13,9 @@
 
     <!-- css: bootstrap-table default -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css">
+
+    <!-- CSS: font-awesome default -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
     <div class="container">
@@ -25,9 +28,9 @@
       <table data-toggle="table" data-url="data.json">
         <thead>
           <tr>
-            <th data-field="extension">Ext.</th>
-            <th data-field="usedby">Used by</th>
-            <th data-field="download">Testfile</th>
+            <th data-field="extension"><i class="fa fa-file"></i> Extension</th>
+            <th data-field="usedby"><i class="fa fa-star"></i> Used by</th>
+            <th data-field="download"><i class="fa fa-cloud-download"></i> Download</th>
           </tr>
         </thead>
       </table>
