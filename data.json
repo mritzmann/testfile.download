@@ -1,0 +1,17 @@
+[
+    {
+        "extension": ".doc",
+        "usedby": "Microsoft Word",
+        "download": "download"
+    },
+    {
+        "extension": ".txt",
+        "usedby": "miscellaneous",
+        "download": "download"
+    },
+    {
+        "extension": ".mov",
+        "usedby": "Apple QuickTime",
+        "download": "download"
+    }
+]
