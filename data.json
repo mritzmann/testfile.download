@@ -5,6 +5,36 @@
         "download": "download"
     },
     {
+        "extension": ".docx",
+        "usedby": "Microsoft Word",
+        "download": "download"
+    },
+    {
+        "extension": ".xls",
+        "usedby": "Microsoft Excel",
+        "download": "download"
+    },
+    {
+        "extension": ".xlsx",
+        "usedby": "Microsoft Excel",
+        "download": "download"
+    },
+    {
+        "extension": ".pdf",
+        "usedby": "Adobe Reader",
+        "download": "download"
+    },
+    {
+        "extension": ".mp3",
+        "usedby": "miscellaneous",
+        "download": "download"
+    },
+    {
+        "extension": ".mp4",
+        "usedby": "miscellaneous",
+        "download": "download"
+    },
+    {
         "extension": ".txt",
         "usedby": "miscellaneous",
         "download": "download"
