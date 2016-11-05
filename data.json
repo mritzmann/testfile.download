@@ -5,6 +5,30 @@
         "download": "download"
     },
     {
+        "extension": ".odt",
+        "usedby": "LibreOffice Writer",
+        "mime": "application/vnd.oasis.opendocument.text",
+        "download": "download"
+    },
+    {
+        "extension": ".ods",
+        "usedby": "LibreOffice Calc",
+        "mime": "application/vnd.oasis.opendocument.spreadsheet",
+        "download": "download"
+    },
+    {
+        "extension": ".odp",
+        "usedby": "LibreOffice Impress",
+        "mime": "application/vnd.oasis.opendocument.presentation",
+        "download": "download"
+    },
+    {
+        "extension": ".odg",
+        "usedby": "LibreOffice Draw",
+        "mime": "application/vnd.oasis.opendocument.graphics",
+        "download": "download"
+    },
+    {
         "extension": ".docx",
         "usedby": "Microsoft Word",
         "download": "download"
