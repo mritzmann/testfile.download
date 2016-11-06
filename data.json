@@ -1,71 +1,80 @@
 [
     {
         "extension": ".doc",
-        "usedby": "Microsoft Word",
+        "software": "Microsoft Word",
+        "mime": "application/msword",
         "download": "download"
     },
     {
         "extension": ".odt",
-        "usedby": "LibreOffice Writer",
+        "software": "LibreOffice Writer",
         "mime": "application/vnd.oasis.opendocument.text",
         "download": "download"
     },
     {
         "extension": ".ods",
-        "usedby": "LibreOffice Calc",
+        "software": "LibreOffice Calc",
         "mime": "application/vnd.oasis.opendocument.spreadsheet",
         "download": "download"
     },
     {
         "extension": ".odp",
-        "usedby": "LibreOffice Impress",
+        "software": "LibreOffice Impress",
         "mime": "application/vnd.oasis.opendocument.presentation",
         "download": "download"
     },
     {
         "extension": ".odg",
-        "usedby": "LibreOffice Draw",
+        "software": "LibreOffice Draw",
         "mime": "application/vnd.oasis.opendocument.graphics",
         "download": "download"
     },
     {
         "extension": ".docx",
-        "usedby": "Microsoft Word",
+        "software": "Microsoft Word",
+        "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "download": "download"
     },
     {
         "extension": ".xls",
-        "usedby": "Microsoft Excel",
+        "software": "Microsoft Excel",
+        "mime": "application/vnd.ms-excel",
         "download": "download"
     },
     {
         "extension": ".xlsx",
-        "usedby": "Microsoft Excel",
+        "software": "Microsoft Excel",
+        "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet[3]",
         "download": "download"
     },
     {
         "extension": ".pdf",
-        "usedby": "Adobe Reader",
+        "software": "Adobe Reader",
+        "mime": "application/pdf",
         "download": "download"
     },
     {
         "extension": ".mp3",
-        "usedby": "miscellaneous",
+        "software": "miscellaneous",
+        "mime": "audio/mpeg",
         "download": "download"
     },
     {
         "extension": ".mp4",
-        "usedby": "miscellaneous",
+        "software": "miscellaneous",
+        "mime": "video/mp4",
         "download": "download"
     },
     {
         "extension": ".txt",
-        "usedby": "miscellaneous",
+        "software": "miscellaneous",
+        "mime": "text/plain",
         "download": "download"
     },
     {
         "extension": ".mov",
-        "usedby": "Apple QuickTime",
+        "software": "Apple QuickTime",
+        "mime": "video/quicktime",
         "download": "download"
     }
 ]
