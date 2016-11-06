@@ -36,7 +36,7 @@
             <th data-field="extension" data-sortable="true"><i class="fa fa-file"></i> Extension</th>
             <th data-field="software" data-sortable="true"><i class="fa fa-star"></i> Software</th>
             <th data-field="mime" data-sortable="true" data-visible="false"><i class="fa fa-info-circle"></i> MIME-Type</th>
-            <th data-field="download" data-sortable="true"><i class="fa fa-cloud-download"></i> Download</th>
+            <th data-field="download" data-sortable="true" data-formatter="operateFormatter"><i class="fa fa-cloud-download"></i> Download</th>
           </tr>
         </thead>
       </table>
@@ -60,6 +60,16 @@
 
     <!-- javascript: bootstrap-table locales -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/locale/bootstrap-table-en-US.min.js"></script>
+
+    <script>
+        function operateFormatter(value, row, index) {
+            return [
+                '<div class="pull-left">',
+                '<a class="btn btn-default" href="/dl-content/' + value + '" role="button" target="_blank">Download</a></a>',
+                '</div>'
+            ].join('');
+        }
+    </script>
 
   </body>
 </html>

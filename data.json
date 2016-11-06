@@ -51,7 +51,7 @@
         "extension": ".pdf",
         "software": "Adobe Reader",
         "mime": "application/pdf",
-        "download": "download"
+        "download": "pdf/testfile.pdf"
     },
     {
         "extension": ".mp3",
