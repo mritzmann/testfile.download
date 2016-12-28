@@ -69,13 +69,19 @@
         "extension": ".mp3",
         "software": "miscellaneous",
         "mime": "audio/mpeg",
-        "download": "download"
+        "download": "mp3/testfile.mp3"
     },
     {
         "extension": ".mp4",
         "software": "miscellaneous",
         "mime": "video/mp4",
-        "download": "download"
+        "download": "mp4/testfile.mp4"
+    },
+    {
+        "extension": ".ogg",
+        "software": "miscellaneous",
+        "mime": "video/ogg",
+        "download": "ogg/testfile.ogg"
     },
     {
         "extension": ".txt",
@@ -83,10 +89,4 @@
         "mime": "text/plain",
         "download": "txt/testfile.txt"
     },
-    {
-        "extension": ".mov",
-        "software": "Apple QuickTime",
-        "mime": "video/quicktime",
-        "download": "download"
-    }
 ]
