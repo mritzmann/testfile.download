@@ -3,49 +3,61 @@
         "extension": ".doc",
         "software": "Microsoft Word",
         "mime": "application/msword",
-        "download": "download"
+        "download": "doc/testfile.doc"
     },
     {
         "extension": ".odt",
         "software": "LibreOffice Writer",
         "mime": "application/vnd.oasis.opendocument.text",
-        "download": "download"
+        "download": "odt/testfile.odt"
     },
     {
         "extension": ".ods",
         "software": "LibreOffice Calc",
         "mime": "application/vnd.oasis.opendocument.spreadsheet",
-        "download": "download"
+        "download": "ods/testfile.ods"
     },
     {
         "extension": ".odp",
         "software": "LibreOffice Impress",
         "mime": "application/vnd.oasis.opendocument.presentation",
-        "download": "download"
+        "download": "odp/testfile.odp"
+    },
+    {
+        "extension": ".ppt",
+        "software": "Microsoft PowerPoint",
+        "mime": "application/vnd.ms-powerpoint",
+        "download": "ppt/testfile.ppt"
+    },
+    {
+        "extension": ".pptx",
+        "software": "Microsoft PowerPoint",
+        "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "download": "pptx/testfile.pptx"
     },
     {
         "extension": ".odg",
         "software": "LibreOffice Draw",
         "mime": "application/vnd.oasis.opendocument.graphics",
-        "download": "download"
+        "download": "odg/testfile.odg"
     },
     {
         "extension": ".docx",
         "software": "Microsoft Word",
         "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "download": "download"
+        "download": "docx/testfile.docx"
     },
     {
         "extension": ".xls",
         "software": "Microsoft Excel",
         "mime": "application/vnd.ms-excel",
-        "download": "download"
+        "download": "xls/testfile.xls"
     },
     {
         "extension": ".xlsx",
         "software": "Microsoft Excel",
         "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet[3]",
-        "download": "download"
+        "download": "xlsx/testfile.xlsx"
     },
     {
         "extension": ".pdf",
@@ -69,7 +81,7 @@
         "extension": ".txt",
         "software": "miscellaneous",
         "mime": "text/plain",
-        "download": "download"
+        "download": "txt/testfile.txt"
     },
     {
         "extension": ".mov",
