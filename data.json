@@ -84,6 +84,18 @@
         "download": "ogg/testfile.ogg"
     },
     {
+        "extension": ".jpg",
+        "software": "miscellaneous",
+        "mime": "image/jpeg",
+        "download": "jpg/testfile.jpg"
+    },
+    {
+        "extension": ".jpeg",
+        "software": "miscellaneous",
+        "mime": "image/jpeg",
+        "download": "jpeg/testfile.jpeg"
+    },
+    {
         "extension": ".txt",
         "software": "miscellaneous",
         "mime": "text/plain",
