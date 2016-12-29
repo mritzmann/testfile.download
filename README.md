@@ -4,7 +4,14 @@ Free download of different test files.
 
 ## Progress
 
-Work in progress. Pull request is not allowed yet.
+Work in progress.
+
+## add new testfiles
+
+Pull request with new testfiles are welcome.
+
+* place your file in the `dl-content` folder
+* add infos to the `data.json` file
 
 ## Ressourcen
 
