@@ -56,7 +56,7 @@
     {
         "extension": ".php",
         "software": "PHP: Hypertext Preprocessor",
-        "mime": "",
+        "mime": "application/x-httpd-php",
         "download": "php/testfile.php"
     },
     {
