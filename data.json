@@ -54,6 +54,12 @@
         "download": "xls/testfile.xls"
     },
     {
+        "extension": ".php",
+        "software": "PHP: Hypertext Preprocessor",
+        "mime": "",
+        "download": "php/testfile.php"
+    },
+    {
         "extension": ".xlsx",
         "software": "Microsoft Excel",
         "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet[3]",
