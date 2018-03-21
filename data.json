@@ -106,5 +106,11 @@
         "software": "miscellaneous",
         "mime": "text/plain",
         "download": "txt/testfile.txt"
+    },
+    {
+        "extension": ".json",
+        "software": "miscellaneous",
+        "mime": "application/json",
+        "download": "json/testfile.json"
     }
 ]
