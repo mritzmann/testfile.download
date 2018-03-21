@@ -2,10 +2,6 @@
 
 Free download of different test files.
 
-## Progress
-
-Work in progress.
-
 ## add new testfiles
 
 Pull request with new testfiles are welcome.
