@@ -9,34 +9,30 @@
     <meta name="description" content="Test files in different formats for download">
 
     <!-- css: bootstrap default -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha256-LA89z+k9fjgMKQ/kq4OO2Mrf8VltYml/VES+Rg0fh20=" crossorigin="anonymous" />
 
     <!-- css: bootstrap-table default -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css" integrity="sha256-UP+6xezmmsC027u61a8Ks+Xnp+TftBfw4PcrNyPXC40=" crossorigin="anonymous" />
 
     <!-- CSS: font-awesome default -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-  </head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">  </head>
   <body>
     <div class="container">
 
-      <div class="page-header">
-      <h1><b>testfile.download</b></h1>
+      <h1 class="mt-5">testfile.download</h1>
       <p class="lead">free download of different test files</p>
-      </div>
 
       <table data-toggle="table"
              data-url="data.json"
              data-sort-name="extension"
              data-search="true"
-             data-show-columns="true"
-             data-show-toggle="true">
+             data-show-columns="false">
         <thead>
           <tr>
-            <th data-field="extension" data-sortable="true"><i class="fa fa-file"></i> Extension</th>
-            <th data-field="software" data-sortable="true"><i class="fa fa-star"></i> Software</th>
-            <th data-field="mime" data-sortable="true" data-visible="false"><i class="fa fa-info-circle"></i> MIME-Type</th>
-            <th data-field="download" data-sortable="false" data-formatter="operateFormatter"><i class="fa fa-cloud-download"></i> Download</th>
+            <th data-field="extension" data-sortable="true"><i class="fas fa-file"></i> Extension</th>
+            <th data-field="software" data-sortable="true"><i class="fas fa-star"></i> Software</th>
+            <th data-field="mime" data-sortable="true"><i class="fa fa-info-circle"></i> MIME-Type</th>
+            <th data-field="download" data-sortable="false" data-formatter="operateFormatter"><i class="fas fa-download"></i> Download</th>
           </tr>
         </thead>
       </table>
@@ -44,7 +40,7 @@
       <hr>
 
       <footer class="footer">
-        <p>by <a href="https://markusritzmann.ch/">Markus Ritzmann</a> | <i class="fa fa-github" aria-hidden="true"></i> <a href="https://github.com/mritzmann/testfile.download">GitHub</a></p>
+        <p>by <a href="https://markusritzmann.ch/">Markus Ritzmann</a> | <i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/mritzmann/testfile.download">GitHub</a></p>
       </footer>
 
     </div> <!-- /container -->
@@ -53,7 +49,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <!-- javascript: bootstrap default -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha256-5+02zu5UULQkO7w1GIr6vftCgMfFdZcAHeDtFnKZsBs=" crossorigin="anonymous"></script>
 
     <!-- javascript: bootstrap-table default -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js" integrity="sha256-l+jZldmOASkIPelan4NKyAFD+oGNqPulrVQwsjxuCXc=" crossorigin="anonymous"></script>
@@ -65,7 +61,7 @@
         function operateFormatter(value, row, index) {
             return [
                 '<div class="pull-left">',
-                '<a class="btn btn-default" href="/dl-content/' + value + '" role="button" target="_blank">Download</a></a>',
+                '<button type="button" class="btn btn-primary" href="/dl-content/' + value + '" target="_blank">Download</a></button>',
                 '</div>'
             ].join('');
         }
