@@ -61,7 +61,7 @@
         function operateFormatter(value, row, index) {
             return [
                 '<div class="pull-left">',
-                '<button type="button" class="btn btn-primary" href="/dl-content/' + value + '" target="_blank">Download</a></button>',
+                '<a href="/dl-content/' + value + '" class="btn btn-primary" role="button" target="_blank">Download</a>',
                 '</div>'
             ].join('');
         }
