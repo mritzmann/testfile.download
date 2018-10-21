@@ -1,0 +1,18 @@
+To: John Doe <john@example.com>
+From: Hans Mueller <mueller@example.com>
+Subject: testfile-test subject
+Message-ID: <06b732ae-9138-2b4e-fbb9-08a5a3bae8c8@example.com>
+Date: Sun, 21 Oct 2018 23:24:43 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101
+ Thunderbird/60.0
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Language: en-US
+Content-Transfer-Encoding: 7bit
+
+Hi John!
+
+I am a Test.
+
+Best,
+Hans Mueller 

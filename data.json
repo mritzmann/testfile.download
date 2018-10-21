@@ -112,5 +112,11 @@
         "software": "miscellaneous",
         "mime": "application/json",
         "download": "json/testfile.json"
+    },
+    {
+        "extension": ".eml",
+        "software": "Email Client",
+        "mime": "application/mbox, message/rfc822",
+        "download": "eml/testfile.eml"
     }
 ]
