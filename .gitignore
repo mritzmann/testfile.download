@@ -1,0 +1,10 @@
+/.profile
+/.zprofile
+/log/*
+/.zsh_history
+/.zshrc
+/cnf/nginx-*.conf
+/cnf/tags
+/.viminfo
+/.zcompdump-*
+/.ssh/*
