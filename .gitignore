@@ -2,6 +2,7 @@
 /.zprofile
 /log/*
 /.zsh_history
+/tmp/*
 /.zshrc
 /cnf/nginx-*.conf
 /cnf/tags
